@@ -54,7 +54,7 @@ set -e
 # Control Plane Cluster #
 #########################
 
-kind create cluster
+kind create cluster -n crossplane
 
 ##############
 # Crossplane #

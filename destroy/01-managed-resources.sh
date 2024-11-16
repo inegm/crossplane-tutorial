@@ -47,7 +47,7 @@ fi
 # Control Plane Cluster #
 #########################
 
-kind delete cluster
+kind delete cluster -n crossplane
 
 ##################
 # Commit Changes #

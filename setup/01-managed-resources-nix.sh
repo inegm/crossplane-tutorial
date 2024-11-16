@@ -28,7 +28,7 @@ rm -f .env
 
 kind delete cluster
 
-kind create cluster
+kind create cluster -n crossplane
 
 ##############
 # Crossplane #
